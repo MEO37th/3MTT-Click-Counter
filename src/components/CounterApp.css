@@ -1,0 +1,88 @@
+/*  Container styling */
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+  margin: 2rem auto;
+  max-width: 400px;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Counter display styling */
+.counter-display {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #333;
+  margin: 1rem 0;
+  background-color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 8px;
+  min-width: 120px;
+  text-align: center;
+  border: 2px solid #ddd;
+}
+
+/* Button container styling */
+.button-container {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+/* Button styling */
+.counter-button {
+  font-size: 2rem;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  color: rgb(144, 138, 138);
+  cursor: pointer;
+  transition: transform 0.1s, background-color 0.3s;
+}
+
+.counter-button:active {
+  transform: scale(0.95);
+}
+
+/* Increase button styling */
+.increase {
+  background-color: #257a28;
+}
+
+.increase:hover {
+  background-color: #164018;
+}
+
+/* Decrease button styling */
+.decrease {
+  background-color: #d21515;
+}
+
+.decrease:hover {
+  background-color: #461616;
+}
+
+/*  Threshold message styling */
+.threshold-message {
+  color: #bd2eaa;
+  font-weight: bold;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: rgba(71, 22, 112, 0.1);
+  border-radius: 4px;
+  border-left: 4px solid #ff9800;
+}
+
+.reset {
+  background-color: #ece908;
+}
+
+.reset:hover {
+  background-color: #8e6512;
+}
